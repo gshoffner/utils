@@ -4,11 +4,6 @@
 
 import sys, time, urllib, urllib2, pynotify, logging, optparse
 
-#Have a lot of fun!
-HaveALotOfFun = pynotify.Notification("Dude, this script is going to totally \
-rock!")
-HaveALotOfFun.show()
-
 #Basic URLs we need to submitt REST requests
 base_url = 'http://www.ebi.ac.uk/Tools/services/rest/ncbiblast/'
 run_url = base_url + 'run/'
